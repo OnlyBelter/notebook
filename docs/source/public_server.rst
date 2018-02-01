@@ -132,7 +132,7 @@ directory, ``~/.jupyter``, e.g.::
     c.NotebookApp.password = u'sha1:67c9e60bb8b6:9ffede0825894254b2e042ea597d771089e11aed'
 
 Automatic password setup will store the hash in ``jupyter_notebook_config.json``
-while this method store in in ``jupyter_notebook_config.py``. The ``.json``
+while this method store it in ``jupyter_notebook_config.py``. The ``.json``
 configuration options take precedence over the ``.py`` one, thus the manual
 password may not take effect if the Json file as a password set.
 
